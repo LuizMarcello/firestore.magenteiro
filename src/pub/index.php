@@ -6,6 +6,7 @@
  * See COPYING.txt for license details.
  */
 
+/* phpinfo(); exit; */
 use Magento\Framework\App\Bootstrap;
 
 try {
@@ -20,6 +21,7 @@ try {
     <p>{$e->getMessage()}</p>
 </div>
 HTML;
+    http_response_code(500);
     exit(1);
 }
 

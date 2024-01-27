@@ -5,3 +5,6 @@ RewriteCond %{REQUEST_URI} !^/update/
 RewriteCond %{REQUEST_URI} !^/dev/
 RewriteRule .* /pub/$0 [L]
 DirectoryIndex index.php
+
+php_value memory_limit 4G
+php_value max_execution_time 18000

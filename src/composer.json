@@ -46,7 +46,8 @@
         "rafaelstz/traducao_magento2_pt_br": "dev-master",
         "ricardomartins/brazilcustomerattributes": "^1.1",
         "ricardomartins/brazilzipcode": "^1.2",
-        "ricardomartins/pagseguro": "^2.19"
+        "ricardomartins/pagseguro": "^2.19",
+        "vpietri/adm-quickdevbar": "^0.1.20"
     },
     "require-dev": {
         "allure-framework/allure-phpunit": "^2",
