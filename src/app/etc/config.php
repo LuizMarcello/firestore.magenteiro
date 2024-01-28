@@ -350,6 +350,7 @@ return [
         'ImaginationMedia_Correios' => 1,
         'MageDev_BrazilZipCode' => 1,
         'Magenteiro_ConfigInfo' => 1,
+        'Magenteiro_PrimeiroModulo' => 1,
         'Mageplaza_Core' => 1,
         'Mageplaza_Smtp' => 1,
         'PayPal_Braintree' => 1,
